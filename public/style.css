@@ -1,0 +1,21 @@
+.fade-out {
+    opacity: 1;
+    animation: fadeOut 1s linear forwards;
+  }
+  
+  @keyframes fadeOut {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  input[type="checkbox"]{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 4px;
+    margin-right: 10px;
+  }
